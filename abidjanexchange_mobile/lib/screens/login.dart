@@ -161,7 +161,7 @@ class _LoginState extends State<Login> {
                       : GestureDetector(
                   onTap: () async {
                     try {
-                      await ApiService.login(_emailController.text, _passwordController.text);
+                      // await ApiService.login(_emailController.text, _passwordController.text);
                       Navigator.pushReplacementNamed(context, '/home');
                     } catch (e) {
                       _showCupertinoDialog(context, e.toString().replaceFirst('Exception: ', ''));

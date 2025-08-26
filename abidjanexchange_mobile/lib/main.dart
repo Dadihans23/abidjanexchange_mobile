@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
       builder: (context, auth, child) {
         // Déterminer la route initiale en fonction de l'état d'authentification
 
-        final initialRoute = auth.user.accessToken != null ? '/home' : '/home';
+        final initialRoute = auth.user.accessToken != null ? '/intro' : '/intro';
 
         return MaterialApp(
           title: 'Abidjanexchange',

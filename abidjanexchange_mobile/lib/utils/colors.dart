@@ -12,7 +12,7 @@ class AppColors {
 
   // Couleurs de fond
   static const Color background = Colors.black; // Noir profond
-  static const Color surface = Color(0xFFFFFFFF); // Blanc pur
+  static const Color surface = Color.fromARGB(255, 211, 211, 211); // Blanc pur
 
   // Couleurs pour le texte
   static const Color textPrimary = Color(0xFFFFFFFF); // Blanc pour texte sur fond noir
@@ -22,6 +22,8 @@ class AppColors {
   // Couleurs utilitaires
   static const Color error = Color(0xFFEF5350); // Rouge corail pour erreurs
   static const Color success = Color(0xFF66BB6A); // Vert émeraude pour succès
+    static const Color successaccent= Color.fromARGB(255, 60, 170, 67); // Vert émeraude pour succès
+
   static const Color warning = Color(0xFFFFB300); // Jaune foncé pour avertissements
 
   // Thème Material
